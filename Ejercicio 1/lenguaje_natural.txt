@@ -1,0 +1,7 @@
+Decimal:            -->  .[0-9]*
+Hexadecimal:        -->  0[x|X]([0-9a-fA-F])+
+Octal:              -->  0([0-7])+
+Correo electrónico: -->  [a-zA-Z0-9._-]+@[ a-zA-Z0-9._-]+. a-zA-Z0-9._-]
+Pagina web:         -->  [w][{3}+ \. [a-zA-Z0-9._-]+\. [a-zA-Z0-9._-]
+Comentarios:        -->  (\/\ *(\s*|.*?)*\*\/))|(\/\/\.*)
+Identificadores:    -->  [a-zA-Z0-9._-]*
